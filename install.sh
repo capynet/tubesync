@@ -71,24 +71,28 @@ echo "✓ Directories created"
 # Make scripts executable
 chmod +x "$SCRIPT_DIR/yt-sync"
 chmod +x "$SCRIPT_DIR/yt-sync-service"
+chmod +x "$SCRIPT_DIR/yt-sync-gui"
 
 # Update shebang to use venv python
 echo ""
 echo "Configuring scripts to use virtual environment..."
 sed -i "1s|.*|#!$SCRIPT_DIR/venv/bin/python3|" "$SCRIPT_DIR/yt-sync"
 sed -i "1s|.*|#!$SCRIPT_DIR/venv/bin/python3|" "$SCRIPT_DIR/yt-sync-service"
+sed -i "1s|.*|#!$SCRIPT_DIR/venv/bin/python3|" "$SCRIPT_DIR/yt-sync-gui"
 echo "✓ Scripts configured"
 
 # Install CLI globally
 echo ""
-echo "Installing 'yt-sync' command globally..."
+echo "Installing commands globally..."
 if [ -w /usr/local/bin ]; then
     ln -sf "$SCRIPT_DIR/yt-sync" /usr/local/bin/yt-sync
-    echo "✓ 'yt-sync' installed to /usr/local/bin/yt-sync"
+    ln -sf "$SCRIPT_DIR/yt-sync-gui" /usr/local/bin/yt-sync-gui
+    echo "✓ 'yt-sync' and 'yt-sync-gui' installed to /usr/local/bin/"
 else
     echo "Need sudo to install to /usr/local/bin..."
     sudo ln -sf "$SCRIPT_DIR/yt-sync" /usr/local/bin/yt-sync
-    echo "✓ 'yt-sync' installed to /usr/local/bin/yt-sync"
+    sudo ln -sf "$SCRIPT_DIR/yt-sync-gui" /usr/local/bin/yt-sync-gui
+    echo "✓ 'yt-sync' and 'yt-sync-gui' installed to /usr/local/bin/"
 fi
 
 # Ask about systemd service

@@ -89,6 +89,13 @@ Or install as systemd service (see below).
 
 ## Usage
 
+### GUI Application
+
+```bash
+# Launch desktop GUI
+yt-sync-gui
+```
+
 ### CLI Dashboard
 
 ```bash
@@ -179,6 +186,7 @@ yt-sync/
 │   ├── youtube_api.py     # YouTube API client
 │   ├── auto_download.py   # Subscription downloads
 │   ├── ytcli.py           # CLI dashboard
+│   ├── gui.py             # Desktop GUI (Flet)
 │   ├── config.py          # Settings
 │   ├── database.py        # SQLite setup
 │   └── models.py          # SQLAlchemy models
@@ -191,6 +199,7 @@ yt-sync/
 ├── install.sh             # Installation script
 ├── oauth_setup.py         # YouTube OAuth setup
 ├── yt-sync                # CLI command
+├── yt-sync-gui            # Desktop GUI application
 ├── yt-sync-service        # Service entry point
 ├── yt-sync.service        # Systemd unit file
 └── README.md
