@@ -5,10 +5,10 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Capynet APT Repository for tubesync
-Date: Sun, 07 Dec 2025 00:54:51 +0000
+Date: Sun, 07 Dec 2025 01:01:15 +0000
 MD5Sum:
- 9f41eae2d82f0d478eeae4575049b1c4 914 main/binary-amd64/Packages
- ced1cdc5d91a2ea1339d4aa8a794a75f 599 main/binary-amd64/Packages.gz
+ 6ee61eae8bba76e4d7c2466f90abbc68 914 main/binary-amd64/Packages
+ 3ab8279296469b436c2e8ae953e46d38 597 main/binary-amd64/Packages.gz
 SHA256:
- b546930ffeda67f5732fcd949a4af0843d2d0054602eeef6f61b2a3065b34345 914 main/binary-amd64/Packages
- 28b693c4dfded7ff8591557db23210a6f500c007dd8e587b0a934caeeb261825 599 main/binary-amd64/Packages.gz
+ 6255bfe81a46c80f212ed93adac8738aaae393f330bc006207f3df0f3a583663 914 main/binary-amd64/Packages
+ b20279cf12cfbfe4a7a56d5fd16587e11e02aa9b95777551b97e90224ed10627 597 main/binary-amd64/Packages.gz
