@@ -1,0 +1,16 @@
+[Unit]
+Description=TubeSync - YouTube Subscription Downloader
+After=network.target
+
+[Service]
+Type=simple
+User=capy
+Group=capy
+WorkingDirectory=/home/capy/Yth
+ExecStart=/home/capy/Yth/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 9876
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
