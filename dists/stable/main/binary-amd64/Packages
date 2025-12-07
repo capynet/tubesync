@@ -1,0 +1,26 @@
+Package: tubesync
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Capynet <capynet@users.noreply.github.com>
+Installed-Size: 243460
+Depends: python3 (>= 3.10), python3-venv, ffmpeg
+Filename: pool/main/t/tubesync/tubesync_0.0.1_amd64.deb
+Size: 34481272
+MD5sum: 701d4d8d7d809d49cf2fb781858c5cf3
+SHA1: 295a74a7473620ef78a535844d3391d0b97cce25
+SHA256: 2b777cfff8067f90bd5bf6fd31c9d68ae4c138b6194857000648c7bddd3983a7
+Section: video
+Priority: optional
+Homepage: https://github.com/capynet/tubesync
+Description: YouTube Subscription Downloader with SMB Upload
+ Web-based YouTube video downloader with automatic SMB upload.
+ .
+ Features:
+  - Auto-downloads videos from YouTube subscriptions
+  - Parallel downloads and uploads via SMB
+  - Separates Shorts into dedicated folder
+  - Web UI accessible from any browser
+  - Runs as a systemd service
+ .
+ Access the web UI at http://localhost:9876 after starting the service.
+

@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Capynet
+Label: Capynet APT Repository
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Capynet APT Repository for tubesync
+Date: Sun, 07 Dec 2025 00:54:51 +0000
+MD5Sum:
+ 9f41eae2d82f0d478eeae4575049b1c4 914 main/binary-amd64/Packages
+ ced1cdc5d91a2ea1339d4aa8a794a75f 599 main/binary-amd64/Packages.gz
+SHA256:
+ b546930ffeda67f5732fcd949a4af0843d2d0054602eeef6f61b2a3065b34345 914 main/binary-amd64/Packages
+ 28b693c4dfded7ff8591557db23210a6f500c007dd8e587b0a934caeeb261825 599 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1Cycp/YjT/5n0zN89nE8NcQB05oFAmk00FsACgkQ9nE8NcQB
+05ozVQ/+Lvu6NgpM9SLCtrT2mMJEiB7LqkzQYSp3t33X1O1KYuIS1DFTcr7U3o3V
+7OqE9S32Q/ihiv/NiGIEkhCFsippFsPQq5TaZJ3I0VNkFmfLWK+eeesf9xecYDlO
+U9/+e1VgVjJDPh92SpQXw5eqRAksNhOy1fghtxrAJMixgGzTkwAyZewh7sfH+Rbo
++wSk3rQmjT9iECKAMFAzMvQGHv4Y6qBTXcNuxzlZzeg7CvQMlrlk4uqcAq3jsMgX
+LJMHqIhZQ9hIDI9kQo+GT0iEwoPdHBTO7cvHa+xYiAIHccw0nGC/4caqlbryLvt6
+KLATDVr9hlq5ZMG39VGceyqoVQsqHtb0YAjfAaOJP+lNKxOUP4nuYkJY8OTs65kn
+pTg4pGCn6krSzQuq/sP0vpCf9nhMWRUb3wb+E76OYHSm75O/FoUci7oLJuEdwTDY
+pBpyN3LL+BiyxALQk5Q/Yk0/bN6d1VtL8jesnuVngRP8Ju5p9Hfb+C29/c2xHQuV
+KNd0aABcFCreOSz69SrDnkKuqAbptB26PPWjE9tRwf9ZBJiT2Rjg2nT0A9WMMneD
+4LhFWJlJZdwqsaWHhIJd77ZpT1DK72y49ROPlywJVx7m1ld2KW7jz+8bqBUMynjp
+Eq4QeHIfRG959u9RFCfftrfnB2C524mjn++ZVOhP385aBmErhOA=
+=sM6F
+-----END PGP SIGNATURE-----
